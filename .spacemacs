@@ -26,6 +26,7 @@ values."
      auto-completion
      ;; better-defaults
      emacs-lisp
+     erlang
      ;; git
      (javascript :variables
                  javascript-disable-tern-port-files nil)
