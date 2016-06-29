@@ -205,6 +205,14 @@ user code."
 layers configuration. You are free to put any user code."
 
   (setq-default
+   backup-directory-alist
+   `(("." . ,(expand-file-name
+              (concat user-emacs-directory "backups"))))
+
+   auto-save-file-name-transforms
+   `((".*" ,(expand-file-name
+             (concat user-emacs-directory "auto-save")) t))
+
    evil-escape-key-sequence "jk"
 
    ;; js2-mode
