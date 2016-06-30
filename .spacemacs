@@ -192,6 +192,8 @@ values."
    ;; Not used for now. (default nil)
    dotspacemacs-default-package-repository nil
 
+   dotspacemacs-line-numbers t
+
    ))
 
 (defun dotspacemacs/user-init ()
